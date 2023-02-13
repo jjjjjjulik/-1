@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lab1</title>
+</head>
+
+<body>
+    <header class="header"></header>
+
+
+    <body class="page">
+        <div class="page__container">
+            <div class="page__body">
+                <div class="page__form form">
+                    <div class="form__line">
+                        <label class="form__label" for="text-element">Введіть текстовий фрагмент для підрахунку:</label>
+                        <textarea id="textArea" autocomplete="off" name="text-element" class="form__area"
+                            placeholder="Введіть текст"></textarea>
+
+                    </div>
+                    <button class="form__button" type="button" id="but"><span>Розрахувати</span></button>
+                </div>
+                <div class="page__text-data text-data">
+                    <div class="text-data__table table">
+                        <div class="table__line">
+                            <p class="table__caption">Символ:</p>
+                            <p class="table__caption">Кількість:</p>
+                            <p class="table__caption">Частота проявлення:</p>
+                        </div>
+                    </div>
+                    <div class="text-data__title">Діаграма розподілення символьних даних </div>
+                    <div class="text-data__diagramm diagramm">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <footer class="footer"></footer>
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>

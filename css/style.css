@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body{
+	/* Значення за замовченням */
+	font-family: "Lato";
+	color: #d6d6d6;
+	background-color: #222222;
+	/* font-size: 16px; */
+}
+
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+/* ============================ */
+
+/* Обмежуючий контейнер */
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* ============================ */
+.page__body {
+	padding: 100px 0px;
+}
+.page__form:not(:last-child) {
+	margin-bottom: 60px;
+}
+.form__line {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+.form__label {
+	padding: 15px 0px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.form__area {
+	padding: 15px;
+	border-radius: 10px;
+	min-height: 120px;
+	max-width: 90%;
+}
+.form__button{
+	margin-top: 50px;
+}
+.form__button span{
+	font-size: 18px;
+	font-weight: 700;
+	padding: 16px 28px;
+	border-radius: 20px;
+	background-color: rgb(30, 136, 74);
+	transition: all 0.3s ease;
+}
+.form__button span:hover{
+	background-color: rgb(19, 85, 46);
+}
+.text-data__table:not(:last-child) {
+	margin-bottom: 80px;
+}
+.table {
+	padding: 30px;
+	border: 1px solid #a1a1a1;
+	flex: 0 1 90%;
+	max-width: 90%;
+}
+
+.table__line {
+	display: flex;
+	justify-content: space-around;
+	padding: 8px 0px;
+}
+.table__caption {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.table__extremums {
+	margin-top: 30px;
+}
+.table__extremum-caption {
+	font-size: 18px;
+	font-weight: 700;
+}
+.text-data__title {
+	text-align: center;	
+	font-size: 20px;
+	font-weight: 700;
+	margin: 40px 0px;
+}
+.diagramm {
+	width:90%;
+	height:450px;
+}
